@@ -36,8 +36,8 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg lg:text-xl mb-6">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem,
-            repellat.
+            A Skilled React Developer With a passion for crafting interactive
+            and responsive web applications.
           </p>
           <div>
             <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-red-600 via-red-900 to-black hover:text-black text-white">
@@ -54,7 +54,8 @@ const HeroSection = () => {
           initial={{ opacity: 0, scale: 0.5 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}
-           className="col-span-4 place-self-center mt-4 lg:mt-0">
+          className="col-span-4 place-self-center mt-4 lg:mt-0"
+        >
           <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
             <Image
               src="/images/Coder.png"
