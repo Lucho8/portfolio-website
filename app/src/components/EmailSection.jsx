@@ -48,10 +48,10 @@ const EmailSection = () => {
   return (
     <section className="grid md:grid-cols-2 my-2 py-20 gap-4 relative">
       <div className="z-10">
-        <h5 className="text-xl font-bold text-white my-2">Let's Connect!</h5>
+        <h5 className="text-xl font-bold text-white my-2">Lets Connect!</h5>
         <p className="text=[#ADB7BE] mb-4 max-w-md">
-          i'm currently looking for new opportunities, my inbox is alwas open.
-          Whether you have a question or just want to say hi, T'll try my best
+          i am currently looking for new opportunities, my inbox is alwas open.
+          Whether you have a question or just want to say hi, I will try my best
           to get back to you!
         </p>
         <div className="socials flex flex-row gap-2">
@@ -128,7 +128,7 @@ const EmailSection = () => {
           </button>
           {emailSubmitted && (
             <p className="text-green-500 text-sm mt-4">
-              Thanks for reaching out! I'll get back to you soon.
+              Thanks for reaching out! I will get back to you soon.
             </p>
           )}
         </form>

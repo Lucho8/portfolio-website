@@ -21,7 +21,7 @@ const NavBar = () => {
         <Link
           href={"/"}
         >
-          <Image src={"/images/ReDevLogo.png"} width={200} height={300}/>
+          <Image src={"/images/ReDevLogo.png"} width={200} height={300} alt="ReDevLogo"/>
         </Link>
         <div className="mobile-menu block md:hidden">
           {!navbarOpen ? (
