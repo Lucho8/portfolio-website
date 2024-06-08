@@ -1,14 +1,15 @@
 "use client";
 import React, { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import NavLink from "./NavLink";
 import MenuOverlay from "./MenuOverlay";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 
 const navLinks = [
-  { title: "About", path: "#about" },
-  { title: "Projects", path: "#projects" },
-  { title: "Contact", path: "#contact" },
+  { title: "About", path: "/about" },
+  { title: "Projects", path: "/projects" },
+  { title: "Contact", path: "/contact" },
 ];
 
 const NavBar = () => {
@@ -19,9 +20,8 @@ const NavBar = () => {
       <div className="flex container lg:py-4  flex-wrap items-center justify-between mx-auto px-4 py-2">
         <Link
           href={"/"}
-          className="text-2xl md:text-5xl text-white font-semibold"
         >
-          LOGO
+          <Image src={"/images/ReDevLogo.png"} width={200} height={300}/>
         </Link>
         <div className="mobile-menu block md:hidden">
           {!navbarOpen ? (
